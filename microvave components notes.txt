@@ -63,7 +63,7 @@
 	//FPGA state machine circuit
 	//FPGA state machine circuit
 	//FPGA state machine circuit
-	
+	//FPGA tone module 
 	
 Hardware Circuits
 7 Segment Display Circuit A
@@ -79,7 +79,7 @@ LED Run State circuit
 LED Pause State circuit
 LED Clear State circuit
 LED Set State circuit
-
+Tone Chime
 
 	
 	
@@ -100,5 +100,5 @@ Run State Output	State module	LED
 Pause State output	State module	LED
 Clear State output	State module	LED
 Set State output	State Module	LED
-
+Tone output			State Module	Tonemodule
 	
