@@ -16,6 +16,7 @@
 #Power led display
 	//Magnetron speed input
 	//FPGA Management
+	//LED out
 #TIMER
 	//Start/set button input
 	//pause input
@@ -47,3 +48,57 @@
 	//pushbutton activation
 	//power level wiring fpga
 	// timer start
+	
+#############################################################################3
+#FPGA Components
+	//FPGA Carousel module
+	//FPGA Fan module
+	//FPGA Fan Module
+	//FPGA Fast Start circuit
+	//FPGA Magnetron motor PWM
+	//FPGA Power Counter
+	//FPGA Oven circuit
+	//FPGA Oven circuit
+	//FPGA state machine circuit
+	//FPGA state machine circuit
+	//FPGA state machine circuit
+	//FPGA state machine circuit
+	
+	
+Hardware Circuits
+7 Segment Display Circuit A
+7 Segment Display Circuit B
+Carousel PWM Circuit
+Fan motor Circuit
+Magnetron Circuit
+LED oven light circuit
+LED Over counter light circuit
+LED Power level circuit
+LED Door LED Circuit
+LED Run State circuit
+LED Pause State circuit
+LED Clear State circuit
+LED Set State circuit
+
+
+	
+	
+Outputs
+Outputs	FPGA Connection	Component Connected to
+Counter 1’s [0000]	Counter Module	7 Segment Display Circuit A
+Counter 10’s [0000]	Counter Module	7 Segment Display Circuit B
+Carousel PWM	FPGA Carousel module	Carousel PWM Circuit
+Fan PWM out	FPGA Fan Module	Fan motor Circuit
+Mag PWM out	FPGA Magnetron motor Module	Magnetron Circuit
+Oven light Output	FPGA Oven Module	LED
+Over Counter Light output	FPGA Oven Module	LED
+Power level outs	FPGA Power counter	LED
+Door Led output	FPGA state machine circuit	LED
+Counter 1’s [0000]	Set Module	FPGA Counter module
+Counter 10’s[0000]	Set Module	FPGA Counter module
+Run State Output	State module	LED
+Pause State output	State module	LED
+Clear State output	State module	LED
+Set State output	State Module	LED
+
+	
