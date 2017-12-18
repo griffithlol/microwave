@@ -1,0 +1,49 @@
+#Door sensor
+	//Switch input
+	//Statemachine Management(FPGA)
+	//LED Output
+#Oven and over counter lights
+	//switch input
+	//LED Output
+#Carousel
+	//State controlled Pwm out(FPGA)
+	//motor circuit
+#Magnetron
+	//Push button speed input
+	//State controlled Pwm out (FPGA)
+	//motor circuit
+	
+#Power led display
+	//Magnetron speed input
+	//FPGA Management
+#TIMER
+	//Start/set button input
+	//pause input
+	//FPGA State input
+	//FPGA Counter module
+	//FPGA BCD Out
+	//Seven segment LED circuit
+#vent fan
+	//State machine management FPGA
+	//Fan switch on/off
+	//fan switch high/low state
+	//Fan pwm
+# Door
+	//switch input(door latch simulation)
+	//pause function simular to pause button in state management (FPGA)
+# oven light door
+	//switch simulating open/close state
+	//led wiring
+# carousel force on/off
+	//state machine management
+	//on/off switch
+#motor speed
+	//FPGA muxer output based on power level input
+#power indicator
+	//fpga output
+	//string of leds
+#30 sec 100% operation
+	//timer set wiring fpga
+	//pushbutton activation
+	//power level wiring fpga
+	// timer start
